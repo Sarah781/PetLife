@@ -112,7 +112,7 @@ h2{
     padding: 64px 80px;
 }
 
-.duvidas{
+.duvida{
     position: relative;
 }
 
@@ -120,15 +120,14 @@ h2{
     border: 2px solid #FF725E;
     border-radius: 8px;
     cursor: pointer;
+    padding: 24px;
 }
 
 .duvida img{
-    width: 30px;
-    height: 7.5px;
-    top: 2618px;
-    left: 1320px;
-    border: 2px;
     position: absolute;
+    top: 32px;
+    right: 24px;
+
 }
 
 
@@ -138,6 +137,16 @@ h2{
     border-left: 1px solid #FF725E;
     border-radius: 0 0 8px 8px;
     margin-top: -8px;
+    padding: 0 24px;
+    height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: all 0.5s;
+}
+
+.duvida.ativa .paragrafo{
+    height: fit-content;
+    opacity: 1;
     padding: 24px;
 }
 
