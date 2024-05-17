@@ -112,7 +112,7 @@ h2{
     padding: 64px 80px;
 }
 
-.duvida{
+.duvidas{
     position: relative;
 }
 
@@ -123,10 +123,14 @@ h2{
 }
 
 .duvida img{
+    width: 30px;
+    height: 7.5px;
+    top: 2618px;
+    left: 1320px;
+    border: 2px;
     position: absolute;
-    top: 32px;
-    right: 24px;
 }
+
 
 .duvida .paragrafo{
     border-right: 1px solid #FF725E;
@@ -144,7 +148,7 @@ footer{
     gap: 80px;
 }
 
-footer img,
+
 footer .titulo{
     display: block;
     font-weight: 600;
@@ -168,9 +172,32 @@ footer p a{
     text-decoration: none;
 }
 
-#copyrigth{
+footer .logo-texto{
+    margin-right: 10%;
+}
+
+footer .links-nav{
+    margin-right: 10%;
+}
+
+footer .links-rapidos{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+footer .encontre-nos{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.meu-perfil{
     background-color: #263138;
     color: #FFFFFF;
     text-align: center;
     padding: 24px;
+}
+
+.meu-perfil a{
+    color: #FF9A6C;
+    text-decoration: none;
 }
