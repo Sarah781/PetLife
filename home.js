@@ -6,3 +6,8 @@ elementosDuvida.forEach(function(duvida) {
     })
 })
 
+// function duvida() {
+//     elementosDuvida.forEach = document.querySelectorAll('.duvida');
+//     duvida.classList.toggle('ativa');
+// }
+
